@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Jost', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10% 3px;
+  background-color: #ebebeb;
+}
+.logo img{
+  max-width: 170px;
+  height: auto;
+}
+.navmenu{
+  display: flex;
+}
+.navmenu a{
+  color: #2c2c2c;
+  font-size: 16px;
+  padding: 0 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all .42s ease;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.navmenu a:hover{
+  color: #EE1C47;
+  
+}
+.nav-icon{
+  display: flex;
+  align-items: center;
+}
+.nav-icon i{
+  margin-right: 20px;
+  color: #2c2c2c;
+  font-weight: 400;
+  transition: all .42s ease;
+}
+.nav-icon i:hover{
+  transform: scale(1.1);
+  color: #EE1C47;
+}
+.menu-icon{
+  font-size: 35px;
+  cursor: pointer;
+  color: #2c2c2c;
+  z-index: 10001;
+}
+.hero_section{
+  margin: 45px 0 0;
+}
+.hero_section p{
+  font-family: 'Great Vibes', cursive;
+  color: #f2f2f2f;
+            font-size: 50px;
+            text-shadow: 2px 8px 6px #000,
+                 0px -5px 35px #000;
+  
+}
+
+.hero_section_button {
+  
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  transition: all .42s ease;
+}
+.hero_section_button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.abt_featured{text-align: center;
+              font-size: 28px;
+              color: #111
+              text-transform: capitalize;
+              margin-bottom: 30px;
+             }
+.abt_featured span{color: #EE1C47;
+                  font-weight: bold;}
+
+.about_section_2 {padding: 60px 0;}
+
+
+.collection1 .col-md-4 img:hover{transform: scale(1.1); transition: all 1.5s linear;}
+.collection1 .col-md-4 img:hover{transition: all 1.5s linear;}
+
+.about_section_2 .col-md-4 button {font-family: "Amazon Ember",sans-serif;}
+.about_section_2 single_product_img h2{font-family: "Amazon Ember",sans-serif;}
+
+footer {background-color:#ebebeb;
+        padding-top: 10px;}
+footer .px-4 img{ max-width: 200px;
+                  height: auto;}
+footer h4{margin-top: 31px; font-weight: bolder; font-size: 20px; font-family: "Poppins", sans-serif;}
+footer p{font-family: "Poppins", sans-serif; font-size: 14px;}
+footer iframe{margin-top: 10px;}
+footer .contact a i{color: #2c2c2c;}
+
+.footer_line{background-color: #f9f9f9;
+            padding-top: 20px;
+            font-size: 15px;}
+
+.single_product-image{overflow: hidden;}
+.img{position: relative;}
+
+
+.details{position: absolute;top: 350px; left:40px;}
+.details h2{text-align-last: ;}
+
+.details h2{font-family: 'Great Vibes', cursive;
+                        color: #f9f9f9;
+                        font-size: 35px;
+                        text-shadow: 0px 8px 6px #000,
+                                     0px 5px 20px #000;
+                        margin-bottom: 1px;
+                        text-transform: capitalize;}
+
+/* Buy now Button styling */
+.details button {
+ padding: 8px 18px;
+ border-radius: 50px;
+ border: 2px solid #f2f2f2;
+ color: #f2f2f2;
+ background-color: transparent;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 12px;
+ transition: all .5s ease;
+}
+
+.details button:hover {
+ letter-spacing: 3px;
+ background-color: #f2f2f2;                   
+ color: #000;                                     
+ box-shadow:  #fff 0px 7px 29px 0px;                 
+}
+
+.details button:active {
+ letter-spacing: 3px;
+ background-color: #fff;                            
+ color: #000;                                          
+ box-shadow: #fff 10px 10px 10px 0px;                        
+ transform: translateY(10px);
+ transition: 100ms;
+}
+
+
+/* vignitte addition on images */
+.single_product-image{position: relative;
+                    display: inline-block;}
+.single_product-image > img{display: block;}
+.single_product-image::after {content: "";
+                              position: absolute;
+                              left:0;
+                              top: 0;
+                              width: 100%;
+                              height: 100%;
+                              box-shadow: 0px 2px 100px #787878 inset;}                    
+
+
+
+.collection2{margin-top: 25px;}
+.collection2 .details{top: 350px; left:115px; text-align-last: center;}
+.collection3{margin: 25px 0;}
+.collection3 .details{top: 350px; left:320px; text-align-last: center;}
+.collection3 .details .button{padding: 8px 18px;
+                              border-radius: 50px;
+                              border: 2px solid #000;
+                              text-transform: uppercase;
+                              font-size: 12px;
+                              letter-spacing: 3px;
+                              background-color: #f2f2f2;                   
+                              color: #000;                                     
+                              box-shadow:  #fff 0px 7px 29px 0px;}
+
+
+.center-text h2{color: #111;
+                font-size: 28px;
+                text-transform: capitalize;
+                text-align: center;
+                margin-bottom: 30px;
+               }
+.center-text span{color: #ee1c47;
+                  font-weight: bold;}
+.products{display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+          gap: 2rem;}
+.row {position: relative;
+      transition: all .40s;
+     }
+.trending-product .row img{width:80%;
+                           height: 80%;
+                           transition: all .40s;}
+.row img:hover{transform: scale(0.9);}
+.product-text h5{position: absolute;
+                 top: 13px;
+                 left: 13px;
+                 background-color: #27b737;
+                 color: #fff;
+                 font-size: 12px;
+                 font-weight: 500;
+                 text-transform: uppercase;
+                 border-radius: 2px;
+                 padding: 3px 10px;}
+.heart-icon{position: absolute;
+            top: 435px;
+            left: 240px;
+            font-size: 20px;}
+.heart-icon:hover{color: #EE1C47;}
+.ratings i{color: #ff8c00;
+           font-size: 18px;}
+.price h4{color: #111;
+          font-size: 16px;
+          text-transform: capitalize;
+          font-weight: 500;
+         font-family: "Poppins", sans-serif;}
+.price p{color: #151515;
+         font-size: 15px;
+         font-weight: 600;}
+
